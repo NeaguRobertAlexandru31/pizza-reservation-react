@@ -6,9 +6,9 @@ const PizzePage: React.FC = () => {
 
 
   return (
-    <section>
-      <ProductCard />
-    </section>
+    <section className="bg-black">
+{      <ProductCard />
+}    </section>
   )
 
 }
