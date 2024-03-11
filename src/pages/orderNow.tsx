@@ -5,7 +5,6 @@ import { navbarItems } from '../utils/constants';
 const OrderNow = () => {
 
   const [activeNavItem, setActiveNavItem] = useState<string>(navbarItems[0].label);
-  const [isNavbarScrollLocked, setNavbarScrollLocked] = useState<boolean>(false);
   const [searchTerm, setSearchTerm] = useState<string>(''); 
   const [isMobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
 
