@@ -6,7 +6,7 @@ const PizzePage: React.FC = () => {
 
 
   return (
-    <section>
+    <section className="m-4">
       <ProductCard />
     </section>
   )
