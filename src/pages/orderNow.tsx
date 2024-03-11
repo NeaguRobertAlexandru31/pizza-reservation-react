@@ -6,12 +6,14 @@ const OrderNow = () => {
 
   const [activeNavItem, setActiveNavItem] = useState<string>(navbarItems[0].label);
   const [isNavbarScrollLocked, setNavbarScrollLocked] = useState<boolean>(false);
-
+  const [searchTerm, setSearchTerm] = useState<string>(''); 
 
   const handleNavItemClick = (label: string) => {
     setActiveNavItem(label);
-    setNavbarScrollLocked(true); // o false
+  };
 
+  const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchTerm(e.target.value);
   };
 
   const SelectedPage = navbarItems.find((item) => item.label === activeNavItem)?.page;
@@ -19,8 +21,9 @@ const OrderNow = () => {
   return (
 
     <section className='grid grid-cols-12 relative'>
-       <nav className="flex justify-center p-2 md:space-x-4 mb-8 bg-red-900 rounded-2xl m-4 col-span-12 md:col-span-9">
-          {navbarItems.map((item, index) => (
+       <nav className="flex p-2 md:space-x-4 mb-8 bg-red-900 rounded-2xl m-4 col-span-12 md:col-span-9">
+        <div className='flex'>
+        {navbarItems.map((item, index) => (
             <button
               key={index}
               className={`text-white py-2 px-4 md:px-2 font-semibold rounded flex items-center cursor-pointer ${item.label === activeNavItem ? "bg-white text-red-900" : ""}`}
@@ -30,6 +33,17 @@ const OrderNow = () => {
               {item.label}
             </button>
             ))}
+        </div>
+          <div className=''>
+          <input
+              type="text"
+              placeholder="Cerca..."
+              className="p-2 md:px-4 rounded-xl"
+              value={searchTerm}
+              onChange={handleSearchChange}
+            />
+          </div>
+            
         </nav>
         <nav className="flex justify-center p-2 space-x-4 mb-8 bg-red-900 rounded-2xl m-4 col-span-3 hidden md:flex">
           <button className={`text-white py-2 px-4 md:px-2 font-semibold rounded flex items-center cursor-pointer`}>
