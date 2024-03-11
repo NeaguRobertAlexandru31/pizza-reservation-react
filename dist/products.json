@@ -1,0 +1,206 @@
+[
+  {
+    "nome": "4 Formaggi",
+    "descrizione": "Pomodoro, mozzarella, gorgonzola, fontina e parmigiano",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "4 Formaggi"
+  },
+  {
+    "nome": "4 Stagioni",
+    "descrizione": "Pomodoro, mozzarella, prosciutto cotto, funghi champignon, carciofi e olive taggiasche",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "4 Stagioni"
+  },
+  {
+    "nome": "Americana",
+    "descrizione": "Pomodoro, mozzarella, wurstel e patatine fritte",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Americana"
+  },
+  {
+    "nome": "Belzebù",
+    "descrizione": "Pomodoro, mozzarella, salamino piccante, 'nduja, peperoni, scamorza affumicata e olio piccante",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Belzebù"
+  },
+  {
+    "nome": "Bismark",
+    "descrizione": "Pomodoro, mozzarella, uovo e prosciutto cotto",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Bismark"
+  },
+  {
+    "nome": "Bufala",
+    "descrizione": "Pomodoro e mozzarella di bufala",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Bufala"
+  },
+  {
+    "nome": "Calabra",
+    "descrizione": "Pomodoro, mozzarella, salamino piccante, olive nere, cipolle e 'nduja",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Calabra"
+  },
+  {
+    "nome": "Calzone",
+    "descrizione": "Pomodoro, mozzarella, prosciutto cotto e funghi champignon",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Calzone"
+  },
+  {
+    "nome": "Capricciosa",
+    "descrizione": "Pomodoro, mozzarella, olive taggiasche, carciofi, funghi champignon e prosciutto cotto",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Capricciosa"
+  },
+  {
+    "nome": "Campagnola",
+    "descrizione": "Pomodoro, mozzarella, cipolle e gorgonzola",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Campagnola"
+  },
+  {
+    "nome": "Diavola",
+    "descrizione": "Pomodoro, mozzarella, salamino piccante e funghi champignon",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Diavola"
+  },
+  {
+    "nome": "Golosona",
+    "descrizione": "Pomodoro, mozzarella, pancetta, funghi, scamorza affumicata e pomodoro fresco",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Golosona"
+  },
+  {
+    "nome": "Italiana",
+    "descrizione": "Pomodoro, mozzarella, melanzane, zucchine, speck, fontina e scaglie di parmigiano",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Italiana"
+  },
+  {
+    "nome": "Margherita",
+    "descrizione": "Pomodoro e mozzarella,",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Margherita"
+  },
+  {
+    "nome": "Mare & Monti",
+    "descrizione": "Pomodoro, mozzarella, gamberetti e funghi porcini",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Mare & Monti"
+  },
+  {
+    "nome": "Merk",
+    "descrizione": "Pomodoro, mozzarella, prosciutto cotto, wurstel, salsiccia e salamino piccante",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Merk"
+  },
+  {
+    "nome": "Napoli",
+    "descrizione": "Pomodoro, mozzarella, acciughe e origano",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Napoli"
+  },
+  {
+    "nome": "Nord & Sud",
+    "descrizione": "Pomodoro, mozzarella, gorgonzola, 'nduja, melanzane e salsiccia",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Nord & Sud"
+  },
+  {
+    "nome": "Norvegese",
+    "descrizione": "Pomodoro, mozzarella, salmone, panna e rucola",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Norvegese"
+  },
+  {
+    "nome": "Occhio di Bue",
+    "descrizione": "Pomodoro, mozzarella, pancetta, uovo e cipolle",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Occhio di Bue"
+  },
+  {
+    "nome": "Parma",
+    "descrizione": "Pomodoro, mozzarella e prosciutto crudo",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Parma"
+  },
+  {
+    "nome": "Porca Vacca",
+    "descrizione": "Pomodoro, mozzarella, prosciutto cotto, panna e parmigiano",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Porca Vacca"
+  },
+  {
+    "nome": "Porcini & Salsiccia",
+    "descrizione": "Pomodoro, mozzarella, funghi porcini, salsiccia e pomodoro fresco",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Porcini & Salsiccia"
+  },
+  {
+    "nome": "Prosciutto e Funghi",
+    "descrizione": "Pomodoro, mozzarella, prosciutto cotto e funghi champignon,",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Prosciutto e Funghi"
+  },
+  {
+    "nome": "Quattro Stagioni",
+    "descrizione": "Pomodoro, mozzarella, funghi champignon, carciofi, olive nere e prosciutto cotto",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Quattro Stagioni"
+  },
+  {
+    "nome": "Quattro Formaggi",
+    "descrizione": "Pomodoro, mozzarella, gorgonzola, fontina e parmigiano",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Quattro Formaggi"
+  },
+  {
+    "nome": "Rustica",
+    "descrizione": "Pomodoro, mozzarella, salsiccia, cipolle, olive nere e peperoni",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Rustica"
+  },
+  {
+    "nome": "Salame",
+    "descrizione": "Pomodoro, mozzarella e salame piccante",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Salame"
+  },
+  {
+    "nome": "Salsiccia e Friarielli",
+    "descrizione": "Pomodoro, mozzarella, salsiccia e friarielli",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Salsiccia e Friarielli"
+  },
+  {
+    "nome": "Salsiccia e Patate",
+    "descrizione": "Pomodoro, mozzarella, salsiccia e patate",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Salsiccia e Patate"
+  },
+  {
+    "nome": "Sarda",
+    "descrizione": "Pomodoro, mozzarella, tonno, cipolla e olive nere",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Sarda"
+  },
+  {
+    "nome": "Tonno e Cipolla",
+    "descrizione": "Pomodoro, mozzarella, tonno e cipolla",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Tonno e Cipolla"
+  },
+  {
+    "nome": "Valdostana",
+    "descrizione": "Pomodoro, mozzarella, fontina e pancetta",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Valdostana"
+  },
+  {
+    "nome": "Vegetariana",
+    "descrizione": "Pomodoro, mozzarella, peperoni, melanzane, zucchine e olive nere",
+    "immagine": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "value": "Vegetariana"
+  }
+]
