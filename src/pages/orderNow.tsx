@@ -7,7 +7,9 @@ import Cart from './carrelloPage';
 const OrderNow = () => {
 
   const [activeNavItem, setActiveNavItem] = useState<string>(navbarItems[0].label);
-  const [searchTerm, setSearchTerm]       = useState<string>(''); 
+  const [searchTerm, setSearchTerm] = useState<string>(''); 
+  const [isMobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
+
 
   const handleNavItemClick = (label: string) => {
     setActiveNavItem(label);
