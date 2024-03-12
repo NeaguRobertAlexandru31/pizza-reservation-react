@@ -1,9 +1,10 @@
-import React from 'react';
+/* Routing */
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
-/* Components */
+/* Pages */
 import OrderNow from './pages/orderNow';
 
 export default function App() {
+  
   return (
     
       <Router>

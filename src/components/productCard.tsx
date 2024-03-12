@@ -1,15 +1,20 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Dispatch, SetStateAction } from "react";
 
-interface Product {
+export interface Product {
   nome: string;
   descrizione: string;
   immagine: string;
   value: string;
 }
 
-const ProductCard: React.FC = () => {
+interface ProductCardProps {
+  setCart: Dispatch<SetStateAction<Product[]>>;
+}
+
+const ProductCard: React.FC<ProductCardProps> = ({  }) => {
 
   const [products, setProducts] = useState<Product[]>([]);
+  const [cart, setCart] = useState<Product[]>([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -60,20 +65,37 @@ const ProductCard: React.FC = () => {
     fetchData();
   }, []);
 
-
+  const addToCart = (product: Product) => {
+    setCart((prevCart) => [...prevCart, product]);
+    console.log(product)
+  };
 
   return (
-    <div className="container mx-auto mt-8 max-h-[75vh] overflow-auto">
+    <div className="container mx-auto max-h-[75vh] overflow-auto">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {products.map((product, index) => (
           <div key={index} className="bg-white p-6 rounded-md shadow-md">
-            <img src={product.immagine} alt={product.nome} className="mb-4 max-w-full h-auto rounded-md" onError={(e) => {
-                // Mostra un'immagine di fallback o placeholder quando si verifica un errore di caricamento
+            <div className="h-[55%]">
+              <img src={product.immagine} alt={product.nome} className="mb-4 max-w-full h-auto rounded-md" onError={(e) => {
                 e.currentTarget.src = 'https://www.geometrian.it/wp-content/uploads/2016/12/image-placeholder-500x500.jpg';
-              }} />
-            <h2 className="text-xl font-semibold mb-2">{product.nome}</h2>
-            <p className="text-gray-600 mb-4">{product.descrizione}</p>
-            <button></button>
+                }} 
+              />
+            </div>
+            <div className="h-[35%]">
+              <h2 className="text-xl font-semibold mb-2">{product.nome}</h2>
+              <p className="text-gray-600 mb-4">{product.descrizione}</p>
+            </div>
+            <div className="h-[10%]">
+            <input
+              className="border-2"
+              type="number"
+              min="0"
+            />
+            <button onClick={() => addToCart(product)}>
+                clicl
+            </button>
+            </div>
+            
           </div>
         ))}
       </div>
