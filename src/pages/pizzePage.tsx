@@ -6,7 +6,7 @@ const PizzePage: React.FC = () => {
   const [cart, setCart] = useState<Product[]>([]);
 
   return (
-    <section className="">
+    <section className="h-full">
       <ProductCard setCart={setCart} />
     </section>
   )
