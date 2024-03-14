@@ -11,10 +11,10 @@ interface ProductCardProps {
   setCart: Dispatch<SetStateAction<Product[]>>;
 }
 
-const ProductCard: React.FC<ProductCardProps> = ({  }) => {
+const ProductCard: React.FC<ProductCardProps> = () => {
 
   const [products, setProducts] = useState<Product[]>([]);
-  const [cart, setCart] = useState<Product[]>([]);
+  const [, setCart] = useState<Product[]>([]);
 
   useEffect(() => {
     const fetchData = async () => {
