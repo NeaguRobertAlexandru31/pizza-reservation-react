@@ -3,6 +3,8 @@ import { useState } from 'react';
 import { navbarItems } from '../utils/constants';
 /* Components */
 /* Icons */
+import { FaUserCircle, FaShoppingCart } from 'react-icons/fa';
+
 
 const OrderNow = () => {
 
@@ -21,37 +23,40 @@ const OrderNow = () => {
 
     <section className ='grid grid-cols-12 grid-rows-10 h-[100vh]'>
       {/* Navbar Desktop */}
-      <nav className ="md:col-span-2 md:row-span-12 bg-blue-900 justify-between">
+      <nav className ="flex col-span-12 row-span-2 row-start-10 justify-around md:col-span-2 md:row-span-12 bg-blue-900">
         {/* Navbar Items Desktop  */}
-        <div className='flex flex-col justify-evenly md:p-2 md:m-2 md:mt-10'>
+        <div className='flex flex-row justify-between w-full p-4 md:flex-col md:justify-start md:p-2 md:m-2 md:mt-10 '>
           {navbarItems.map((item, index) => (
             <button
               className = {`flex items-center md:py-2 md:px-2 text-white font-semibold rounded-lg cursor-pointer ${item.label === activeNavItem ? "bg-white text-blue-800" : ""}`}
               key       = {index}
               onClick   = {() => handleNavItemClick(item.label)}
             >
-            <span className="m-2">{item.icon}</span>
-              {item.label}
+            <span className="m-2" style={{ fontSize:"36px"}}>{item.icon}</span>
+            <span className='hidden md:flex'>{item.label}</span>
             </button>
             ))}
         </div>
         {/* End Navbar Items Desktop  */}
       </nav>
       {/* End Navbar Desktop */}
-        <div className='flex justify-between items-center md:col-span-10 md:col-start-3 row-span-1 bg-blue-900 text-white'>
-            <div className='flex'>
-              
-            </div>
-            <div className='flex justify-center'>
-              <h1>searchbar</h1>
-            </div>
-            <div className='flex justify-end mr-2'>
-              <h1 className='mx-2'>profilo</h1>
-              <h1>carrello</h1>
-            </div>
+      {/* Search bar and settings */}
+      <div className = 'flex col-span-12 row-span-1 md:col-span-10 md:col-start-3 justify-between items-center bg-blue-900 text-white'>
+        <FaUserCircle size={36} className='ml-6'/>
+        <div className = 'flex justify-center'>
+          <form className="flex items-center">
+            <input
+              type="text"
+              placeholder="Cerca"
+              className="px-4 py-2 text-gray-900 rounded-lg border border-gray-300 focus:outline-none"
+            />
+          </form>
         </div>
+        <FaShoppingCart size={36} className='mr-6' />
+      </div>
+      {/* End search bar and settings */}
       {/* Pages */}
-      <div className ='md:col-span-10 md:col-start-3 md:row-span-9 md:row-start-2 bg-gray-200 overflow-auto'>
+      <div className = 'col-span-12 row-span-8 row-start-2 row-end-10 md:col-span-10 md:col-start-3 md:row-span-9 md:row-start-2 bg-gray-200 overflow-auto'>
         {SelectedPage && <SelectedPage />}
       </div>
       {/* End Pages */}

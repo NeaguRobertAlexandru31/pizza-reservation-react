@@ -72,30 +72,20 @@ const ProductCard: React.FC<ProductCardProps> = () => {
 
   return (
     <div className="h-full overflow-auto">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4">
         {products.map((product, index) => (
           <div key={index} className="bg-white p-6 rounded-md shadow-md">
             <div className="h-[55%]">
+              <h2 className="text-xl font-semibold mb-2">{product.nome}</h2>
               <img src={product.immagine} alt={product.nome} className="mb-4 max-w-full h-auto rounded-md" onError={(e) => {
                 e.currentTarget.src = 'https://www.geometrian.it/wp-content/uploads/2016/12/image-placeholder-500x500.jpg';
                 }} 
               />
+              <h1>Euro prezzo</h1>
             </div>
             <div className="h-[35%]">
-              <h2 className="text-xl font-semibold mb-2">{product.nome}</h2>
-              <p className="text-gray-600 mb-4">{product.descrizione}</p>
+              <p className="hidden text-gray-600 mb-4">{product.descrizione}</p>
             </div>
-            <div className="h-[10%]">
-            <input
-              className="border-2"
-              type="number"
-              min="0"
-            />
-            <button onClick={() => addToCart(product)}>
-                clicl
-            </button>
-            </div>
-            
           </div>
         ))}
       </div>
