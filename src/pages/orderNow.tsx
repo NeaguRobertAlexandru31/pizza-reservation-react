@@ -10,6 +10,7 @@ const OrderNow = () => {
 
   /* useState */
   const [activeNavItem, setActiveNavItem] = useState<string>(navbarItems[0].label);
+  const [expanded, setExpanded]           = useState(false);
 
   /* useState functions */
   const handleNavItemClick = (label: string) => {
@@ -25,7 +26,7 @@ const OrderNow = () => {
       {/* Navbar Desktop */}
       <nav className ="flex col-span-12 row-span-2 row-start-10 justify-around md:col-span-2 md:row-span-12 bg-blue-900">
         {/* Navbar Items Desktop  */}
-        <div className='flex flex-row justify-between w-full p-4 md:flex-col md:justify-start md:p-2 md:m-2 md:mt-10 '>
+        <div className='flex flex-row justify-between w-full p-4 md:flex-col md:justify-start md:p-2 md:m-2 md:mt-10'>
           {navbarItems.map((item, index) => (
             <button
               className = {`flex items-center md:py-2 md:px-2 text-white font-semibold rounded-lg cursor-pointer ${item.label === activeNavItem ? "bg-white text-blue-800" : ""}`}
