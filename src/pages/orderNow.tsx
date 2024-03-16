@@ -22,7 +22,7 @@ const OrderNow = () => {
 
     <section className ='grid grid-cols-12 grid-rows-10 h-[100vh]'>
       {/* Navbar Desktop */}
-      <nav className ="flex col-span-12 row-span-2 row-start-10 justify-around md:col-span-2 md:row-span-12 bg-blue-900">
+      <nav className ="flex col-span-12 row-span-2 row-start-10 justify-around md:col-span-1 md:row-span-12 bg-blue-900">
         {/* Navbar Items Desktop  */}
         <div className='flex flex-row justify-between w-full p-4 md:flex-col md:justify-start md:p-2 md:m-2 md:mt-10'>
           {navbarItems.map((item, index) => (
@@ -44,9 +44,9 @@ const OrderNow = () => {
       </nav>
       {/* End Navbar Desktop */}
       {/* Search bar and settings */}
-      <div className = 'flex col-span-12 row-span-1 md:col-span-10 md:col-start-3 justify-between items-center bg-blue-900 text-white'>
-        <FaUserCircle size={36} className='ml-6'/>
-        <div className = 'flex justify-center'>
+      <div className = 'flex col-span-12 row-span-1 md:col-span-11 md:col-start-2 justify-between items-center bg-blue-900 text-white'>
+        <FaUserCircle size={36} className='mx-6'/>
+        <div className = 'flex justify-center md:w-[50%]'>
           <form className="flex items-center">
             <input
               type="text"
@@ -55,11 +55,11 @@ const OrderNow = () => {
             />
           </form>
         </div>
-        <FaShoppingCart size={36} className='mr-6' />
+        <FaShoppingCart size={36} className='mx-6' />
       </div>
       {/* End search bar and settings */}
       {/* Pages */}
-      <div className = 'col-span-12 row-span-8 row-start-2 row-end-10 md:col-span-10 md:col-start-3 md:row-span-9 md:row-start-2 bg-gray-200 overflow-auto'>
+      <div className = 'col-span-12 row-span-8 row-start-2 row-end-10 md:col-span-11 md:col-start-2 md:row-span-9 md:row-start-2 bg-gray-200 overflow-auto'>
         {SelectedPage && <SelectedPage />}
       </div>
       {/* End Pages */}
