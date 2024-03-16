@@ -5,12 +5,10 @@ import { navbarItems } from '../utils/constants';
 /* Icons */
 import { FaUserCircle, FaShoppingCart } from 'react-icons/fa';
 
-
 const OrderNow = () => {
 
   /* useState */
   const [activeNavItem, setActiveNavItem] = useState<string>(navbarItems[0].label);
-  const [expanded, setExpanded]           = useState(false);
 
   /* useState functions */
   const handleNavItemClick = (label: string) => {
@@ -33,8 +31,12 @@ const OrderNow = () => {
               key       = {index}
               onClick   = {() => handleNavItemClick(item.label)}
             >
-            <span className="m-2" style={{ fontSize:"36px"}}>{item.icon}</span>
-            <span className='hidden md:flex'>{item.label}</span>
+            <span className="m-2" style={{ fontSize:"36px"}}>
+              {item.icon}
+            </span>
+            <span className='hidden md:flex'>
+              {item.label}
+            </span>
             </button>
             ))}
         </div>

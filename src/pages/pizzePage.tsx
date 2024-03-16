@@ -1,13 +1,11 @@
-import React, { useState } from "react";
-import ProductCard, { Product } from "../components/productCard"
+import React from "react";
+import ProductCard from "../components/productCard";
 
 const PizzePage: React.FC = () => {
 
-  const [cart, setCart] = useState<Product[]>([]);
-
   return (
     <section className="h-full">
-      <ProductCard setCart={setCart} />
+      <ProductCard/>
     </section>
   )
 

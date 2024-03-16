@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Dispatch, SetStateAction } from "react";
+import React, { useState, useEffect } from "react";
 
 export interface Product {
   nome: string;
@@ -7,14 +7,9 @@ export interface Product {
   value: string;
 }
 
-interface ProductCardProps {
-  setCart: Dispatch<SetStateAction<Product[]>>;
-}
-
-const ProductCard: React.FC<ProductCardProps> = () => {
+const ProductCard = () => {
 
   const [products, setProducts] = useState<Product[]>([]);
-  const [, setCart] = useState<Product[]>([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -64,11 +59,6 @@ const ProductCard: React.FC<ProductCardProps> = () => {
 
     fetchData();
   }, []);
-
-  const addToCart = (product: Product) => {
-    setCart((prevCart) => [...prevCart, product]);
-    console.log(product)
-  };
 
   return (
     <div className="h-full overflow-auto">
